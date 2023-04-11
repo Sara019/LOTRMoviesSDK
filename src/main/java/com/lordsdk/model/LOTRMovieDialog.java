@@ -1,14 +1,17 @@
-package com.lordoftheringsSDK.model;
+package com.lordsdk.model;
 
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * Movie Dialog Entity
+ */
 public class LOTRMovieDialog {
-    String id;
-    String dialog;
+    private String id;
+    private String dialog;
     @SerializedName("movie")
-    String movieId;
+    private String movieId;
     @SerializedName("character")
-    String characterId;
+    private String characterId;
 
     public String getId() {
         return id;
@@ -26,20 +29,20 @@ public class LOTRMovieDialog {
         this.dialog = dialog;
     }
 
-    public String getMovie() {
+    public String getMovieId() {
         return movieId;
     }
 
-    public void setMovie(String movie) {
+    public void setMovieId(String movie) {
         this.movieId = movie;
     }
 
-    public String getCharacter() {
+    public String getCharacterId() {
         return characterId;
     }
 
-    public void setCharacter(String character) {
-        this.characterId = character;
+    public void setCharacterId(String characterId) {
+        this.characterId = characterId;
     }
 
 

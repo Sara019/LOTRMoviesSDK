@@ -1,24 +1,27 @@
-package com.lordoftheringsSDK.model;
+package com.lordsdk.model;
 
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-public class LOTRMovieDialogAPIResponse {
-    int total;
-    int limit;
-    int offset;
-    int page;
-    int pages;
+/**
+ * To map the response from getMovies API call
+ */
+public class LOTRMoviesListAPIResponse {
+    private int total;
+    private int limit;
+    private int offset;
+    private int page;
+    private int pages;
     @SerializedName("docs")
-    private List<LOTRMovieDialog> movieDialogs;
+    private List<LOTRMovie> moviesList;
 
-    public List<LOTRMovieDialog> getMovieDialogs() {
-        return movieDialogs;
+    public List<LOTRMovie> getMoviesList() {
+        return moviesList;
     }
 
-    public void setMovieDialogs(List<LOTRMovieDialog> movieDialog) {
-        this.movieDialogs = movieDialog;
+    public void setMoviesList(List<LOTRMovie> moviesList) {
+        this.moviesList = moviesList;
     }
 
     public int getTotal() {
