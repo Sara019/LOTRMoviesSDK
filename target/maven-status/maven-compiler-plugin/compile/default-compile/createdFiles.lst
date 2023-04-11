@@ -1,0 +1,9 @@
+com\lordsdk\model\LOTRMovieDialogAPIResponse.class
+com\lordsdk\model\LOTRMoviesListAPIResponse.class
+com\lordsdk\sdkservice\LOTRMovieAPIClient.class
+com\lordsdk\exception\MissingIdException.class
+com\lordsdk\helper\HttpUtils.class
+com\lordsdk\model\LOTRMovieDialog.class
+com\lordsdk\Constants.class
+com\lordsdk\exception\MovieException.class
+com\lordsdk\model\LOTRMovie.class

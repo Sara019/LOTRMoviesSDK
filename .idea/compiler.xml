@@ -9,8 +9,5 @@
         <module name="LOTRMoviesSDK" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="LOTR_SDK" target="19" />
-    </bytecodeTargetLevel>
   </component>
 </project>
