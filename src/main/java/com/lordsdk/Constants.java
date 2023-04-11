@@ -1,4 +1,4 @@
-package com.lordoftheringsSDK.service;
+package com.lordsdk;
 
 public interface Constants {
     String AUTH_TOKEN = "J_-ITsv8XvaFd6vvm561";

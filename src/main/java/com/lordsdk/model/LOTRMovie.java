@@ -1,7 +1,10 @@
-package com.lordoftheringsSDK.model;
+package com.lordsdk.model;
 
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * Movie Entity
+ */
 public class LOTRMovie {
     @SerializedName("_id")
     private String movieId;
