@@ -33,7 +33,7 @@ public class LOTRMovieAPIClient {
     }
 
     /**
-     * @return
+     * @return list of all Lord of Rings movies
      */
     public List<LOTRMovie> getMovies() {
         try {
